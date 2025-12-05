@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Gamepad className="h-6 w-6 text-game" />
-          <span className="text-xl font-bold text-white">GameHostHaven</span>
+          <span className="text-xl font-bold text-white">RenderByte</span>
         </div>
 
         {/* Desktop menu */}
