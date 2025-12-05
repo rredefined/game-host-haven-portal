@@ -4,32 +4,32 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Alex Johnson",
-    role: "Minecraft Server Admin",
-    content: "GameHostHaven has transformed our Minecraft community. The servers are incredibly fast and the control panel makes management a breeze. Their support team is responsive and actually understands gaming!",
+    name: "Bunnyfoy",
+    role: "Minecraft Content Creator",
+    content: "RenderByte has transformed our Minecraft SMP. The servers are incredibly fast and the control panel makes management a breeze. Their support team is responsive and actually understands gaming!",
     rating: 5,
-    avatar: "https://i.pravatar.cc/150?img=11",
+    avatar: "https://i.imgur.com/5NEq5u8.jpeg",
   },
   {
-    name: "Sarah Williams",
+    name: "Vexzo Max",
     role: "eSports Team Manager",
     content: "We've tried multiple hosting providers for our CS2 tournaments, but none compare to GameHostHaven. The performance is consistently excellent and the DDoS protection has saved us during critical matches.",
     rating: 5,
-    avatar: "https://i.pravatar.cc/150?img=5",
+    avatar: "https://i.imgur.com/XI8Ye2l.jpeg",
   },
   {
-    name: "Michael Rodriguez",
-    role: "Gaming Community Owner",
+    name: "NighT",
+    role: "ArixMC Network Founder",
     content: "Managing servers for our 10,000+ member community used to be a nightmare until we switched to GameHostHaven. Their scalable solutions and automation tools have saved us countless hours of work.",
     rating: 5,
-    avatar: "https://i.pravatar.cc/150?img=12",
+    avatar: "https://i.imgur.com/KYc12Vb.jpeg",
   },
   {
-    name: "Emily Chen",
-    role: "Twitch Streamer",
-    content: "As a streamer, I need reliable servers that my viewers can join without issues. GameHostHaven delivers exactly that, plus their control panel is so intuitive that I can manage everything while streaming.",
+    name: "Jami Pragyan",
+    role: "Minecraft Community Owner",
+    content: "RenderByte has been amazing for my Minecraft community. The servers are fast, stable, and their support team is always quick to help. Highly recommend!",
     rating: 4,
-    avatar: "https://i.pravatar.cc/150?img=9",
+    avatar: "https://i.imgur.com/Kw4kD05.png",
   },
 ];
 
