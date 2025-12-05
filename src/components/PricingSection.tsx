@@ -6,51 +6,51 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 const pricingPlans = [
   {
     name: "Starter",
-    price: "$4.99",
+    price: "₹699",
     description: "Perfect for small gaming communities",
     features: [
-      "2GB RAM",
-      "1 vCPU Core",
-      "30GB SSD Storage",
-      "1 Game Server",
+      "16GB RAM",
+      "4 vCPU Core",
+      "60GB SSD Storage",
+      "Dedicated IP Address",
       "Basic DDoS Protection",
-      "Community Support",
+      "Control Panel",
     ],
     popular: false,
     buttonText: "Get Started",
   },
   {
     name: "Premium",
-    price: "$14.99",
+    price: "₹999",
     description: "Ideal for growing communities",
     features: [
-      "8GB RAM",
-      "4 vCPU Cores",
+      "32GB RAM",
+      "8 vCPU Cores",
       "100GB NVMe Storage",
-      "3 Game Servers",
+      "Dedicated IP Address",
       "Advanced DDoS Protection",
       "24/7 Priority Support",
       "Automatic Backups",
-      "Custom Domain",
+      "Control Panel",
     ],
     popular: true,
     buttonText: "Choose Premium",
   },
   {
     name: "Ultimate",
-    price: "$29.99",
+    price: "₹1399",
     description: "For professional gaming communities",
     features: [
-      "16GB RAM",
-      "8 vCPU Cores",
+      "64GB RAM",
+      "16 vCPU Cores",
       "250GB NVMe Storage",
-      "Unlimited Game Servers",
+      "Dedicated IP Address",
       "Enterprise DDoS Protection",
       "24/7 VIP Support",
-      "Hourly Backups",
-      "Custom Domain",
-      "API Access",
-      "Dedicated IP Address",
+      "Any OS",
+      "Custom Location",
+      "Control Panel",
+      "1 Extra IP Address",
     ],
     popular: false,
     buttonText: "Choose Ultimate",
@@ -66,7 +66,7 @@ const PricingSection = () => {
             Simple, <span className="text-gradient">Transparent Pricing</span>
           </h2>
           <p className="text-gray-300 text-lg">
-            Choose the plan that fits your needs. All plans include 24/7 server uptime, DDoS protection, and our game-ready control panel.
+            Choose the plan that fits your needs. All plans include 24/7 server uptime, DDoS protection, and convoy panel.
           </p>
         </div>
         
