@@ -1,4 +1,3 @@
-
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -117,7 +116,17 @@ const PricingSection = () => {
           <p className="text-gray-300 mb-6">
             Contact our sales team for custom plans with dedicated hardware, multi-region deployments, and enterprise support.
           </p>
-          <Button className="bg-gradient-game hover:opacity-90">Contact Sales</Button>
+
+          {/* Updated Button with Discord Link */}
+          <Button asChild className="bg-gradient-game hover:opacity-90">
+            <a 
+              href="https://discord.gg/wZCDmremRY"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Contact Sales
+            </a>
+          </Button>
         </div>
       </div>
     </section>
